@@ -47,7 +47,7 @@ function cloneObject(object){
 
 function getIndex(data, id){
   let clone = JSON.parse(JSON.stringify(data));
-  return clone.findIndex((obj) => parseInt)
+  return clone.findIndex((obj) => parseInt(obj.id) === parseInt(id));
 }
 // Combine all the reducers
 const rootReducer = combineReducers({
