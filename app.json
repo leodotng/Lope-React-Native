@@ -1,4 +1,7 @@
 {
   "name": "LopeNative",
-  "displayName": "LopeNative"
+  "displayName": "Lope",
+  "expo": {
+  "sdkVersion": "18.0.0"
+ }
 }

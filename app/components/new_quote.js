@@ -36,13 +36,13 @@ class NewQuote extends Component {
 
   render () {
     return (
-      <View style={{flexL 1, backgroundColor: '#fff'}}>
+      <View style={{flex: 1, backgroundColor: '#fff'}}>
         <View style={{flex:1, paddingLeft:10, paddingRight:10}}>
           <TextInput
             onChangeText={(text) => this.setState({author: text})}
             placeholder={'Author'}
             autoFocus={true}
-            style{[styles.title]}
+            style={[styles.title]}
             value={this.state.author}
           />
           <TextInput
@@ -59,7 +59,7 @@ class NewQuote extends Component {
           <Text style={[styles.navText,
             {
               fontWeight: "500",
-              color: (this.state.author.length > 0 && this.state.quote.length > 0) ? "#FFF" : "rgba(255,255,255,.5)")
+              color: (this.state.author.length > 0 && this.state.quote.length > 0) ? "#FFF" : "rgba(255,255,255,.5)"
           }]}>
           Save
         </Text>
